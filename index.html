@@ -18,12 +18,12 @@
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		
 	</head>
-	<body>
+	<body style="background-image: url(imgs/bluebg.jpg)">
 
 		<!-- navbar on top -->
-		<div id="nav" class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div id="nav" class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom:0px">
 			<div class="container">
-				<div class="navbar-header">
+				<div class="navbar-header" style="padding-left:20px;margin:0 auto">
 					<a class="navbar-brand" href="#" style="color:white">TCNJ CS</a>
 				</div>
 				<div class="collapse navbar-collapse">
@@ -37,26 +37,99 @@
 		</div>
 
 		<!-- content -->
-		<div class="container">
+		<div class="container" style="width:70%; background-color:white; height:100%">
 
 			<!-- heading -->
-			<h1>Association for Computing Machinery</h1>
+			<h1 id="title" style="padding-left:10px">Association for Computing Machinery</h1>
+            
+                <div class="col-md-4 bg-warning" style="width:100%; height:100%">
+                    
+                    <!-- Carousel -->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:500px; overflow:hidden">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      </ol>
 
-			<div class="row">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" style="overflow:hidden">
+                        <div class="item active">
+                          <img src="imgs/tcnjTeam.jpg" alt="HackTCNJ Team" style="overflow:hidden">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="imgs/acmGroup.jpg" alt="TCNJ ACM at HackRU">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        ...
+                      </div>
 
-				<div class="col-md-4 bg-info" style="width:62%">
-					<p> The mission of the TCNJ ACM student chapter is to  create a collaborative environment in 
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                    </div>
+				</div>
+            
+            <!-- Row class -->
+			<div class="main-content" style="top:30px">
+
+				<div class="col-md-4 bg-info" style="width:60%; padding-top:10px; background-color:white">
+                    <h2>Mission</h2>
+					<p style="margin-top:10px">The mission of the TCNJ ACM student chapter is to create a collaborative environment in 
                         which all students interested in computing science can come together to share ideas, partake in activities, 
                         and learn together. ACM activities include tech talks, group trips, and an annual hackathon, HackTCNJ. ACM 
                         also connects students to resources in the computing community such as hackathons, computer science groups, 
-                        and professional or academic opportunities.</p>
+                        and professional or academic opportunities. We are an ACM accredited chapter and we welcome all students
+                        regardless of ethnicity, experience level, major, or gender. TCNJ ACM membership is also free for all students.</br></p>
+                    
+                    <h3>Fall 2014 Meeting Schedule</h3>
+                    <h4>Wednesdays @ 2:30pm in Forcina 408</h4>
 				</div>
 
-				<div class="col-md-8 bg-warning" style="width:38%">
-					<p>Column Two Stuff</p>
-				</div>
 				
-			</div>
+                <!-- News Section -->
+                <div class="media" style="width:40%; padding-top:13px">
+                    <h3>News & Upcoming Events</h3>
+                    
+                    <!--First media news entry-->
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="imgs/servers.PNG" alt="servers linode" style="width:100px">
+                    </a>
+                    
+                    <div class="media-body">
+                        <h4 class="media-heading">Linode donates 65 servers to TCNJ CS Department.
+                        <a href="#">Read More...</a></h4>
+                    </div>
+                    
+                </div>
+        
+                <!--Second media news entry-->
+                <div class="media" style="width:40%; padding-top:30px">
+                    
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="imgs/Logo.PNG" alt="HackTCNJ Hackathon" style="width:100px">
+                    </a>
+                    
+                    <div class="media-body">
+                        <h4 class="media-heading">HackTCNJ 2014 unites 100+ hackers in TCNJ's biggest tech event.
+                        <a href="#">Read More...</a></h4>
+                    </div>
+                    
+                </div>
+
+    		</div> <!--end of class row-->
+    
+            
 		</div>
 
 	</body>

@@ -53,6 +53,7 @@
                 
                 <!-- Collapsible panels-->
                 <div class="panel-group" id="accordion">
+                    
                   <div class="panel panel-default">
                     <div class="panel-heading">
                       <h4 class="panel-title">
@@ -63,15 +64,117 @@
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in">
                         
-                        <!--write description here and put picture albums here as well-->
+                        <!--write description here and the picture album goes here as well-->
                       <div class="panel-body">
                          HackTCNJ is the biggest tech event of the year. Each year, we bring together over 100 student technologists and professionals to create 
                           applications and innovative projects. The result is 24-hour tech extravangaza that culminates in a round of presentations of some of the 
-                          most amazing things that can be created in a 24-hour period. Here are some visuals of our second hackathon, hackTCNJ 2014.
+                          most amazing things that can be created in a 24-hour period. Here are some visuals of our second hackathon, hackTCNJ 2014. Click on the 
+                          images to enlarge them.
+                          
+                          <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+                            <div id="blueimp-gallery" class="blueimp-gallery">
+
+                                <!-- The container for the modal slides -->
+                                <div class="slides"></div>
+
+                                <!-- Controls for the borderless lightbox -->
+                                <h3 class="title"></h3>
+                                <a class="prev">‹</a>
+                                <a class="next">›</a>
+                                <a class="close">×</a>
+                                <a class="play-pause"></a>
+                                <ol class="indicator"></ol>
+
+                                <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                                <div class="modal fade">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title"></h4>
+                                            </div>
+                                            <div class="modal-body next"></div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default pull-left prev">
+                                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                                    Previous
+                                                </button>
+                                                <button type="button" class="btn btn-primary next">
+                                                    Next
+                                                    <i class="glyphicon glyphicon-chevron-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of class modal fade-->
+
+                            </div>
+
+                            <div id="links" style="margin-top:20px;">
+                                <a href="imgs/hacktcnj2014/htcnj37.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj37.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj0.jpg" title="hackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj0.jpg" alt="lecture" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj1.jpg" title="hackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj1.jpg" alt="HackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj2.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj2.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj3.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj3.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj5.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj5.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj6.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj6.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj7.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj7.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj11.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj11.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj16.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj16.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj17.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj17.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj22.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj22.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj23.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj23.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj25.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj25.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj27.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj27.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj28.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj28.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj29.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj29.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj30.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj30.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                                <a href="imgs/hacktcnj2014/htcnj31.jpg" title="HackTCNJ" data-gallery>
+                                    <img src="imgs/hacktcnj2014/htcnj31.jpg" alt="hackTCNJ" style="width:130px;">
+                                </a>
+                            </div> <!-- End of first embedded gallery -->
                         
-                      </div>
-                    </div>
-                  </div>
+                      </div> <!-- end of first panel body-->
+                        
+                    </div> <!-- end of collapse one-->
+                  </div> <!-- end of first panel default-->
+                    
                   <div class="panel panel-default">
                     <div class="panel-heading">
                       <h4 class="panel-title">
@@ -84,16 +187,95 @@
                       <div class="panel-body">
                         At TCNJ, we study extremely hard and some nights, it's necessary to play harder. This is why ACM hosts Game Nights every semester.
                           Game Nights are events in which students let loose in friendly competition against one another as they play their favorite games. We play 
-                          board games, PC games, console games, and more. 
-                        <img id="anderson" src="imgs/anderson.jpg" alt="Andrew Miller" style="width:215px;">
+                          board games, PC games, console games, and more. Click on the images to enlarge them.
+                          
+                          <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+                            <div id="blueimp-gallery" class="blueimp-gallery">
+
+                                <!-- The container for the modal slides -->
+                                <div class="slides"></div>
+
+                                <!-- Controls for the borderless lightbox -->
+                                <h3 class="title"></h3>
+                                <a class="prev">‹</a>
+                                <a class="next">›</a>
+                                <a class="close">×</a>
+                                <a class="play-pause"></a>
+                                <ol class="indicator"></ol>
+
+                                <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                                <div class="modal fade">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title"></h4>
+                                            </div>
+                                            <div class="modal-body next"></div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default pull-left prev">
+                                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                                    Previous
+                                                </button>
+                                                <button type="button" class="btn btn-primary next">
+                                                    Next
+                                                    <i class="glyphicon glyphicon-chevron-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of class modal fade-->
+
+                            </div>
+
+                            <div id="links" style="margin-top:20px;">
+                                <a href="imgs/gameNight/gn0.png" title="Game Night Flyer" data-gallery>
+                                    <img src="imgs/gameNight/gn0.png" alt="Game Night Flyer" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn1.jpg" title="DDR showdown Glen vs. Matt" data-gallery>
+                                    <img src="imgs/gameNight/gn1.jpg" alt="DDR" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn2.jpg" title="DDR showdown Matt vs. Wade" data-gallery>
+                                    <img src="imgs/gameNight/gn2.jpg" alt="DDR" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn3.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn3.jpg" alt="Game Night" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn4.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn4.jpg" alt="Game Night" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn5.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn5.jpg" alt="Game Night" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn6.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn6.jpg" alt="Game Night" style="width:130px;">
+                                </a>
+                                 <a href="imgs/gameNight/gn7.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn7.jpg" alt="Game Night" style="width:130px;">
+                                </a> 
+                                <a href="imgs/gameNight/gn8.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn8.jpg" alt="DDR" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn9.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn9.jpg" alt="Game Night" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn10.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn10.jpg" alt="Game Night" style="width:130px;">
+                                </a>
+                                <a href="imgs/gameNight/gn11.jpg" title="Game Night" data-gallery>
+                                    <img src="imgs/gameNight/gn11.jpg" alt="Game Night" style="width:130px;">
+                                </a>
+                            </div>
                       </div>
                     </div>
                   </div>
+                    
+                <!-- Third Collapsible panel -->
                   <div class="panel panel-default">
                     <div class="panel-heading">
                       <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                          Field Trips
+                          Outside Adventures
                         </a>
                       </h4>
                     </div>
@@ -103,13 +285,17 @@
                         In the Spring 2014 semester, the ACM group visited the Princeton-based Venture Capitalist firm, Tigerlabs. There, our members not only got a 
                         tour of the facilities lead by one of the co-founders, but they also got to meet some of the engineers and learn a little bit about what it's 
                         like to build a startup. Aside from the Tigerlabs trip, our members also had a strong presence at hackathons and other academic events that took
-                        place outside of school. 
+                        place outside of school. Click on the images to enlarge them. 
                       </div>
                     </div>
                   </div>
                 </div>
     		</div> <!--end of class main content-->
               
+            <!-- js gallery scripts-->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+            <script src="js/bootstrap-image-gallery.min.js"></script>
 		</div>
 
 	</body>

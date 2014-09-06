@@ -84,7 +84,7 @@
             <!-- Row class -->
 			<div class="main-content" style="top:30px">
 
-				<div class="col-md-4 bg-info" style="width:60%; padding-top:10px; background-color:white">
+				<div class="col-md-4 bg-info" style="width:60%; padding-top:10px; background-color:white;">
                     <h2>Mission</h2>
 					<p style="margin-top:10px">The mission of the TCNJ ACM student chapter is to create a collaborative environment in 
                         which all students interested in computing science can come together to share ideas, partake in activities, 
@@ -96,82 +96,108 @@
                     <h3>Fall 2014 Meeting Schedule</h3>
                     <h4>Wednesdays @ 2:30pm in Forcina 408</h4>
 				</div>
-
-				
+                
                 <!-- News Section -->
-                <div class="media" style="width:40%; padding-top:13px">
+                <div class="col-md-4" style="width:40%; padding-top:13px; float:right; height:250px">
                     <h3>News & Upcoming Events</h3>
-                    
-                    <!--First media news entry-->
-                    <a class="pull-left" href="#">
-                        <img class="media-object" src="imgs/servers.PNG" alt="servers linode" style="width:100px">
-                    </a>
-                    
-                    <div class="media-body">
-                        <h4 class="media-heading">Linode donates 65 servers to TCNJ CS Department.
-                        <a href="#">Read More...</a></h4>
-                    </div>
-                    
-                </div>
-        
-                <!--Second media news entry-->
-                <div class="media" style="width:40%; padding-top:30px">
-                    
-                    <a class="pull-left" href="#">
-                        <img class="media-object" src="imgs/Logo.PNG" alt="HackTCNJ Hackathon" style="width:100px">
-                    </a>
-                    
-                    <div class="media-body">
-                        <h4 class="media-heading">HackTCNJ 2014 unites 100+ hackers in TCNJ's biggest tech event.
-                        <a href="#">Read More...</a></h4>
-                    </div>
-                    
-                </div>
-    		</div> <!--end of class main content-->
-              
-            <!-- Contact Form-->
-            <h3 style="margin:0 auto; margin-top:90px;padding-left:20px;">Talk to us! E-mail us directly at acm@tcnj.edu or fill out the form below.</h3>
-            <div class="panel panel-default" style="margin:0 auto;width:500px; margin-top:20px;">
-					<div class="panel-heading">
-						<h2 class="panel-title">Contact Form</h2>
-					</div>
-					<div class="panel-body">
-						<form name="contactform" method="post" action="http://wedding-space.net/01_admin_resources/blog/contact_form/mailer.php" class="form-horizontal" role="form">
-							<div class="form-group">
-								<label for="inputName" class="col-lg-2 control-label">Name</label>
-								<div class="col-lg-10">
-									<input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputEmail1" class="col-lg-2 control-label">Email</label>
-								<div class="col-lg-10">
-									<input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputSubject" class="col-lg-2 control-label">Subject</label>
-								<div class="col-lg-10">
-									<input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword1" class="col-lg-2 control-label">Message</label>
-								<div class="col-lg-10">
-									<textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-lg-offset-2 col-lg-10">
-									<button type="submit" class="btn btn-default">
-										Send Message
-									</button>
-								</div>
-							</div>
-						</form>
+                    <div class="media-box" style="height:100%; overflow:scroll; padding-top:2px">
+                        
+                        <!-- First media div -->
+                        <div class="media">
 
-					</div>
-				</div>
+                            <!--First media news entry-->
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="imgs/servers.PNG" alt="servers linode" style="width:100px">
+                            </a>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">Linode donates 65 servers to TCNJ CS Department.
+                                <a href="http://www.nj.com/mercer/index.ssf/2014/07/tcnj_computer_science_department_gets_major_upgrade_with_donated_servers.html">
+                                    Read More...</a></h4>
+                            </div>
+                        </div>
+
+                        <!--Second media div-->
+                        <div class="media" style="width:100%;">
+
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="imgs/Logo.PNG" alt="HackTCNJ Hackathon" style="width:100px">
+                            </a>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">HackTCNJ 2014 unites 100+ hackers in TCNJ's biggest tech event.
+                                <a href="http://www.nj.com/mercer/index.ssf/2014/02/students_build_web_and_mobile_apps_during_24-hour_hacktcnj_event_in_ewing.html">
+                                    Read More...</a></h4>
+                            </div>
+                        </div>
+                        
+                        <!-- Third media div -->
+                        <div class="media">
+                            <!--Third media news entry-->
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="imgs/news/flyer_landscape.png" alt="servers linode" style="width:100px">
+                            </a>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">ACM kickstarts the Fall 2014 Semester with pizza, trivia, and swag.</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+              
+
+            </div> <!--end of class main content-->
+            
+            <!-- Contact Form-->
+            <div class="contact-section" style="width:100%; margin-top:370px; padding-left:10px">
+                
+                <!-- Section Header -->
+                <h3 style="margin:0 auto; padding-top:500px">Talk to us! E-mail us directly at acm@tcnj.edu or fill out the form below.</h3>
+                
+                <!-- Contact Form -->
+                <div class="panel panel-default" style="margin:0 auto;">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Contact Form</h2>
+                        </div>
+                        <div class="panel-body" style="padding-left:10px">
+                            <form name="contactform" method="post" action="http://wedding-space.net/01_admin_resources/blog/contact_form/mailer.php" class="form-horizontal" role="form" style="padding-left:10px">
+                                <div class="form-group" style="width:40%; padding-left:130px;">
+                                    <label for="inputName" class="col-lg-2 control-label">Name</label>
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="form-group" style="width:40%; padding-left:130px;">
+                                    <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+                                    </div>
+                                </div>
+                                <div class="form-group" style="width:50%; padding-left:110px;">
+                                    <label for="inputSubject" class="col-lg-2 control-label">Subject</label>
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
+                                    </div>
+                                </div>
+                                <div class="form-group" style="width:80%; padding-left:40px;">
+                                    <label for="inputPassword1" class="col-lg-2 control-label">Message</label>
+                                    <div class="col-lg-10">
+                                        <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-lg-offset-2 col-lg-10">
+                                        <button type="submit" class="btn btn-default">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
 		</div>
 
 	</body>
